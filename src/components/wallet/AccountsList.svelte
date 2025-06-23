@@ -15,6 +15,7 @@
   import { invoke } from '@tauri-apps/api/tauri';
   import { notify_success } from '../../modules/carpeNotify';
   import { raise_error } from '../../modules/carpeError';
+  import VouchInstructions from './VouchInstructions.svelte';
   
   UIkit.use(Icons)
 
@@ -107,6 +108,43 @@
     return $_('wallet.account_list.account_on_chain');
   }
 
+  // Check if account has recently rejoined but has no vouches
+  let showVouchInstructions = false;
+  let isVouchScoreValid = false;
+  
+  // Simple function to check if we should show the vouch instructions
+  async function checkVouchStatus(account) {
+    if (!account) return;
+    
+    try {
+      // Find the account details from allAccounts
+      const accountDetails = $allAccounts.find(a => a.account === account);
+      
+      if (accountDetails && !accountDetails.watch_only) {
+        // Check if the account has a valid vouch score using the existing backend function
+        isVouchScoreValid = await invoke('is_not_valid_vouch_score', { account });
+        
+        // Show instructions only if:
+        // 1. It's the current signing account (not watch-only)
+        // 2. It doesn't have a valid vouch score
+        showVouchInstructions = 
+          $signingAccount?.account === account && 
+          !accountDetails.watch_only &&
+          !isVouchScoreValid;
+      } else {
+        showVouchInstructions = false;
+      }
+    } catch (e) {
+      console.error("Failed to check vouch status:", e);
+      showVouchInstructions = false;
+    }
+  }
+  
+  // Check vouch status when signing account changes
+  $: if ($signingAccount) {
+    checkVouchStatus($signingAccount.account);
+  }
+  
   // Function to refresh account data
   async function refreshAccounts() {
     try {
@@ -127,6 +165,11 @@
       
       // Refresh accounts list after operation completes
       await refreshAccounts();
+      
+      // Check vouch status after successful rejoin
+      if ($signingAccount) {
+        checkVouchStatus($signingAccount.account);
+      }
     } else {
       // Handle error
       console.error("Rejoin failed:", error);
@@ -137,6 +180,12 @@
 </script>
 
 <main>
+  <!-- Vouch Instructions Card -->
+  <VouchInstructions 
+    {showVouchInstructions} 
+    on:close={() => showVouchInstructions = false}
+  />
+  
   {#if $signingAccount && $allAccounts && $allAccounts.length > 0}
     <table class="uk-table uk-table-divider">
       <thead>

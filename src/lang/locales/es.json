@@ -57,7 +57,24 @@
       "account_on_chain": "Account Not On Chain",
       "message": "Your balance will go down for every transaction you send, including mining.",
       "info_title": "Account Info",
+      "rejoin": "Volver a unirse",
+      "rejoin_tooltip": "Migrar esta cuenta a la red v8",
+      "rejoin_success": "Cuenta reincorporada exitosamente a la red v8",
+      "rejoin_processing": "Migración en progreso...",
       "watch_only_tooltip": "Esta es una cuenta de solo visualización. Las funciones de transferencia y transacción están deshabilitadas."
+    },
+    "vouch_instructions": {
+      "title": "Tu Cuenta Necesita Avales",
+      "description": "Tu cuenta se ha reincorporado con éxito a la red, pero necesitas avales de otros miembros de la comunidad para desbloquear tus monedas y participar plenamente.",
+      "what_you_need": "Lo Que Necesitas",
+      "need_item_1": "Al menos 2 avales de cuentas no relacionadas",
+      "need_item_2": "Una puntuación de confianza combinada de 100,000 o más",
+      "how_to_get": "Cómo Conseguir Avales",
+      "step_1": "Contacta a miembros confiables de la comunidad y comparte la dirección de tu cuenta",
+      "step_2": "Pídeles que avalen por ti usando la pestaña de Transacciones en Carpe",
+      "step_3": "Una vez que alcances una puntuación de confianza suficiente, tus monedas comenzarán a desbloquearse automáticamente",
+      "learn_more": "Aprende más sobre los avales en la ",
+      "documentation": "documentación oficial"
     },
     "account_details": {
       "title": "Account Details"

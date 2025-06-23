@@ -57,7 +57,24 @@
       "account_on_chain": "Le compte n'est pas sur la chaîne",
       "message": " Votre solde diminuera pour toutes transactions effectuées, y compris lorsque vous minez.",
       "info_title": "Informations sur le compte",
+      "rejoin": "Se reconnecter",
+      "rejoin_tooltip": "Migrer ce compte vers le réseau v8",
+      "rejoin_success": "Compte reconnecté avec succès au réseau v8",
+      "rejoin_processing": "Migration en cours...",
       "watch_only_tooltip": "Ce compte est en lecture seule. Les fonctionnalités de transfert et de transaction sont désactivées."
+    },
+    "vouch_instructions": {
+      "title": "Votre Compte Nécessite des Cautions",
+      "description": "Votre compte a réussi à rejoindre le réseau, mais vous avez besoin de cautions d'autres membres de la communauté pour débloquer vos pièces et participer pleinement.",
+      "what_you_need": "Ce Dont Vous Avez Besoin",
+      "need_item_1": "Au moins 2 cautions de comptes non liés",
+      "need_item_2": "Un score de confiance combiné de 100 000 ou plus",
+      "how_to_get": "Comment Obtenir des Cautions",
+      "step_1": "Contactez des membres de confiance de la communauté et partagez l'adresse de votre compte",
+      "step_2": "Demandez-leur de se porter garant pour vous en utilisant l'onglet Transactions dans Carpe",
+      "step_3": "Une fois que vous aurez atteint un score de confiance suffisant, vos pièces commenceront à se débloquer automatiquement",
+      "learn_more": "En savoir plus sur les cautions dans la ",
+      "documentation": "documentation officielle"
     },
     "account_details": {
       "title": "Détails du compte"

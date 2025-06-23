@@ -63,6 +63,19 @@
       "rejoin_processing": "Migration in progress...",
       "watch_only_tooltip": "This is a watch-only account. Transfer and transaction features are disabled."
     },
+    "vouch_instructions": {
+      "title": "Your Account Needs Vouches",
+      "description": "Your account has successfully rejoined the network, but you need vouches from other community members to unlock your coins and fully participate.",
+      "what_you_need": "What You Need",
+      "need_item_1": "At least 2 vouches from unrelated accounts",
+      "need_item_2": "A combined trust score of 100,000 or more",
+      "how_to_get": "How to Get Vouched",
+      "step_1": "Contact trusted community members and share your account address",
+      "step_2": "Ask them to vouch for you using the Transactions tab in Carpe",
+      "step_3": "Once you achieve sufficient trust score, your coins will begin unlocking automatically",
+      "learn_more": "Learn more about vouching in the ",
+      "documentation": "official documentation"
+    },
     "migration": {
       "config_success": "Successfully migrated config from previous version"
     },

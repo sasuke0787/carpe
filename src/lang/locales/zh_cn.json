@@ -57,7 +57,24 @@
       "account_on_chain": "未激活",
       "message": " 所有发送的交易（包括：挖矿）都会消耗一些余额作为手续费。",
       "info_title": "账户信息",
+      "rejoin": "重新加入",
+      "rejoin_tooltip": "将此账户迁移到v8网络",
+      "rejoin_success": "账户已成功重新加入v8网络",
+      "rejoin_processing": "迁移进行中...",
       "watch_only_tooltip": "这是一个只读账户。转账和交易功能已被禁用。"
+    },
+    "vouch_instructions": {
+      "title": "您的账户需要担保",
+      "description": "您的账户已成功重新加入网络，但您需要其他社区成员的担保才能解锁您的代币并完全参与。",
+      "what_you_need": "您需要什么",
+      "need_item_1": "至少2个来自无关账户的担保",
+      "need_item_2": "累计信任分数达到100,000或更高",
+      "how_to_get": "如何获得担保",
+      "step_1": "联系可信的社区成员并分享您的账户地址",
+      "step_2": "请他们使用Carpe中的交易标签为您提供担保",
+      "step_3": "一旦您达到足够的信任分数，您的代币将开始自动解锁",
+      "learn_more": "在",
+      "documentation": "官方文档中了解更多关于担保的信息"
     },
     "account_details": {
       "title": "账户详情"

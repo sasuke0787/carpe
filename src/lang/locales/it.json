@@ -57,7 +57,24 @@
       "account_on_chain": "Account Not On Chain",
       "message": " Your balance will go down for every transaction you send, including mining.",
       "info_title": "Account Info",
+      "rejoin": "Riconnettiti",
+      "rejoin_tooltip": "Migra questo account alla rete v8",
+      "rejoin_success": "Account riconnesso con successo alla rete v8",
+      "rejoin_processing": "Migrazione in corso...",
       "watch_only_tooltip": "Questo è un account di sola lettura. Le funzioni di trasferimento e transazione sono disabilitate."
+    },
+    "vouch_instructions": {
+      "title": "Il Tuo Account Ha Bisogno di Garanzie",
+      "description": "Il tuo account è stato riconnesso con successo alla rete, ma hai bisogno di garanzie da parte di altri membri della comunità per sbloccare le tue monete e partecipare pienamente.",
+      "what_you_need": "Cosa Ti Serve",
+      "need_item_1": "Almeno 2 garanzie da account non correlati",
+      "need_item_2": "Un punteggio di fiducia combinato di 100.000 o più",
+      "how_to_get": "Come Ottenere Garanzie",
+      "step_1": "Contatta membri fidati della comunità e condividi l'indirizzo del tuo account",
+      "step_2": "Chiedi loro di garantire per te utilizzando la scheda Transazioni in Carpe",
+      "step_3": "Una volta raggiunto un punteggio di fiducia sufficiente, le tue monete inizieranno a sbloccarsi automaticamente",
+      "learn_more": "Scopri di più sulle garanzie nella ",
+      "documentation": "documentazione ufficiale"
     },
     "account_details": {
       "title": "Dettagli dell'account"

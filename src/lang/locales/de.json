@@ -57,7 +57,24 @@
       "account_on_chain": "Konto nicht auf der Chain",
       "message": " Dein Guthaben verringert sich bei jeder Transaktion, die du sendest, einschließlich Mining.",
       "info_title": "Konto-Informationen",
+      "rejoin": "Wieder beitreten",
+      "rejoin_tooltip": "Dieses Konto zum v8-Netzwerk migrieren",
+      "rejoin_success": "Konto erfolgreich zum v8-Netzwerk wieder beigetreten",
+      "rejoin_processing": "Migration läuft...",
       "watch_only_tooltip": "Dies ist ein Nur-Lese-Konto. Übertragungs- und Transaktionsfunktionen sind deaktiviert."
+    },
+    "vouch_instructions": {
+      "title": "Dein Konto benötigt Bürgschaften",
+      "description": "Dein Konto ist erfolgreich dem Netzwerk wieder beigetreten, aber du benötigst Bürgschaften von anderen Community-Mitgliedern, um deine Coins freizuschalten und vollständig teilzunehmen.",
+      "what_you_need": "Was du brauchst",
+      "need_item_1": "Mindestens 2 Bürgschaften von nicht verwandten Konten",
+      "need_item_2": "Eine kombinierte Vertrauenswertung von 100.000 oder mehr",
+      "how_to_get": "Wie du Bürgschaften erhältst",
+      "step_1": "Kontaktiere vertrauenswürdige Community-Mitglieder und teile deine Kontoadresse mit",
+      "step_2": "Bitte sie, für dich zu bürgen, indem sie den Transaktionen-Tab in Carpe verwenden",
+      "step_3": "Sobald du eine ausreichende Vertrauenswertung erreichst, werden deine Coins automatisch freigeschaltet",
+      "learn_more": "Erfahre mehr über Bürgschaften in der ",
+      "documentation": "offiziellen Dokumentation"
     },
     "account_details": {
       "title": "Kontodetails"

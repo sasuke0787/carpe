@@ -57,7 +57,24 @@
       "account_on_chain": "Conta não criada na rede",
       "message": "Seu saldo diminuirá para cada transação que você enviar, incluindo as de mineração.",
       "info_title": "Informações sobre a conta",
+      "rejoin": "Reconectar",
+      "rejoin_tooltip": "Migrar esta conta para a rede v8",
+      "rejoin_success": "Conta reconectada com sucesso à rede v8",
+      "rejoin_processing": "Migração em andamento...",
       "watch_only_tooltip": "Esta é uma conta somente leitura. Funções de transferência e transação estão desativadas."
+    },
+    "vouch_instructions": {
+      "title": "Sua Conta Precisa de Avais",
+      "description": "Sua conta foi reconectada com sucesso à rede, mas você precisa de avais de outros membros da comunidade para desbloquear suas moedas e participar plenamente.",
+      "what_you_need": "O Que Você Precisa",
+      "need_item_1": "Pelo menos 2 avais de contas não relacionadas",
+      "need_item_2": "Uma pontuação de confiança combinada de 100.000 ou mais",
+      "how_to_get": "Como Conseguir Avais",
+      "step_1": "Entre em contato com membros confiáveis da comunidade e compartilhe o endereço da sua conta",
+      "step_2": "Peça que eles avaliem você usando a aba Transações no Carpe",
+      "step_3": "Quando você alcançar uma pontuação de confiança suficiente, suas moedas começarão a desbloquear automaticamente",
+      "learn_more": "Saiba mais sobre avais na ",
+      "documentation": "documentação oficial"
     },
     "account_details": {
       "title": "Detalhes da Conta"

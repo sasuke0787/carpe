@@ -57,7 +57,24 @@
       "account_on_chain": "Account Not On Chain",
       "message": "Your balance will go down for every transaction you send, including mining.",
       "info_title": "Account Info",
+      "rejoin": "إعادة الانضمام",
+      "rejoin_tooltip": "ترحيل هذا الحساب إلى شبكة v8",
+      "rejoin_success": "تم إعادة انضمام الحساب بنجاح إلى شبكة v8",
+      "rejoin_processing": "الترحيل قيد التقدم...",
       "watch_only_tooltip": "هذا حساب للقراءة فقط. خصائص التحويل والمعاملات معطلة."
+    },
+    "vouch_instructions": {
+      "title": "حسابك يحتاج إلى ضمانات",
+      "description": "لقد تم إعادة انضمام حسابك بنجاح إلى الشبكة، ولكنك تحتاج إلى ضمانات من أعضاء المجتمع الآخرين لفتح عملاتك والمشاركة بشكل كامل.",
+      "what_you_need": "ما تحتاج إليه",
+      "need_item_1": "على الأقل ضمانتين من حسابات غير مرتبطة",
+      "need_item_2": "مجموع نقاط ثقة يبلغ 100,000 أو أكثر",
+      "how_to_get": "كيفية الحصول على الضمانات",
+      "step_1": "تواصل مع أعضاء موثوقين في المجتمع وشارك عنوان حسابك",
+      "step_2": "اطلب منهم أن يضمنوك باستخدام علامة التبويب المعاملات في Carpe",
+      "step_3": "بمجرد تحقيق درجة ثقة كافية، ستبدأ عملاتك في الفتح تلقائيًا",
+      "learn_more": "تعرف على المزيد حول الضمانات في ",
+      "documentation": "الوثائق الرسمية"
     },
     "account_details": {
       "title": "Account Details"
