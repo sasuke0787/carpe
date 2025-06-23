@@ -75,7 +75,7 @@
   <!-- Transaction Type Selector -->
   <div class="uk-margin-medium-bottom uk-card uk-card-default uk-card-body uk-padding-small">
     <div class="uk-flex uk-flex-between uk-flex-middle">
-      <h3 class="uk-card-title uk-margin-remove">{$_('txs.select_transaction_type')}</h3>
+      <h4 class="uk-card-title uk-margin-remove">{$_('txs.select_transaction_type')}</h4>
     </div>
     
     <div class="uk-grid-small uk-child-width-1-2@s uk-child-width-1-4@m uk-margin-small-top" uk-grid>
@@ -109,10 +109,3 @@
     </div>
   {/if}
 </main>
-
-<style>
-  /* Style for selected transaction type button */
-  button[aria-pressed="true"] {
-    font-weight: bold;
-  }
-</style>
