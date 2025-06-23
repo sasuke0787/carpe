@@ -4,7 +4,8 @@
     "miner": "Miner",
     "transactions": "Transfer",
     "vouch": "Vouch",
-    "events": "Events"
+    "events": "Events",
+    "watch_only_disabled": "Esta acción está deshabilitada para cuentas de solo visualización"
   },
   "layout": {
     "key_error": {
@@ -55,7 +56,8 @@
       "loading": "loading",
       "account_on_chain": "Account Not On Chain",
       "message": "Your balance will go down for every transaction you send, including mining.",
-      "info_title": "Account Info"
+      "info_title": "Account Info",
+      "watch_only_tooltip": "Esta es una cuenta de solo visualización. Las funciones de transferencia y transacción están deshabilitadas."
     },
     "account_details": {
       "title": "Account Details"

@@ -19,10 +19,18 @@
 
   let account: CarpeProfile
   let unsubs
+  import { navigate } from 'svelte-navigator'
+  import { routes } from '../../modules/routes'
+
   onMount(async () => {
     unsubs = signingAccount.subscribe((obj) => {
       account = obj
-      watchOnly = obj.watch_only
+      watchOnly = obj?.watch_only
+      
+      // Redirect watch-only accounts to wallet
+      if (watchOnly) {
+        navigate(routes.wallet, { replace: true })
+      }
     })
   })
 

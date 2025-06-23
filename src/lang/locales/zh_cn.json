@@ -4,7 +4,8 @@
     "miner": "矿工",
     "transactions": "交易",
     "vouch": "担保",
-    "events": "事件"
+    "events": "事件",
+    "watch_only_disabled": "此操作对只读账户禁用"
   },
   "layout": {
     "key_error": {
@@ -55,7 +56,8 @@
       "loading": "加载中",
       "account_on_chain": "未激活",
       "message": " 所有发送的交易（包括：挖矿）都会消耗一些余额作为手续费。",
-      "info_title": "账户信息"
+      "info_title": "账户信息",
+      "watch_only_tooltip": "这是一个只读账户。转账和交易功能已被禁用。"
     },
     "account_details": {
       "title": "账户详情"

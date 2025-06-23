@@ -4,7 +4,8 @@
     "miner": "Miner",
     "transactions": "Transaktionen",
     "vouch": "Bürgen",
-    "events": "Ereignisse"
+    "events": "Ereignisse",
+    "watch_only_disabled": "Diese Aktion ist für Nur-Lese-Konten deaktiviert"
   },
   "layout": {
     "key_error": {
@@ -55,7 +56,8 @@
       "loading": "wird geladen",
       "account_on_chain": "Konto nicht auf der Chain",
       "message": " Dein Guthaben verringert sich bei jeder Transaktion, die du sendest, einschließlich Mining.",
-      "info_title": "Konto-Informationen"
+      "info_title": "Konto-Informationen",
+      "watch_only_tooltip": "Dies ist ein Nur-Lese-Konto. Übertragungs- und Transaktionsfunktionen sind deaktiviert."
     },
     "account_details": {
       "title": "Kontodetails"

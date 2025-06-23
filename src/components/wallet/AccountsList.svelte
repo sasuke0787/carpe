@@ -22,8 +22,9 @@
   $: showNoteColumn = $allAccounts.some(
     (account) => account.note !== null && account.note.trim() !== '',
   )
+  
   function selectAddress(address) {
-    setAccount(address)
+    setAccount(address);
   }
 
   // Subscribe to the preferences store
@@ -206,7 +207,7 @@
                     <button uk-icon="settings" class="uk-margin-left" on:click={() => navigate('/account-details')} />
                   {/if}
                   {#if a.watch_only}
-                    <span class="uk-align-right" style="margin: 4px;" uk-icon="eye"></span>
+                    <span class="watch-only-indicator" uk-tooltip={$_('wallet.account_list.watch_only_tooltip')}><span uk-icon="eye"></span></span>
                   {/if}
                 </span>
                 <div class="status-indicators">
@@ -279,5 +280,11 @@
   .migration-status-wrapper,
   .vouch-score-wrapper {
     margin-right: 3px;
+  }
+  
+  .watch-only-indicator {
+    float: right;
+    color: #888;
+    margin: 4px;
   }
 </style>

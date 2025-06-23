@@ -4,7 +4,8 @@
     "miner": "Miner",
     "transactions": "Transaction",
     "vouch": "Vouch",
-    "events": "Events"
+    "events": "Events",
+    "watch_only_disabled": "Questa azione è disabilitata per gli account di sola lettura"
   },
   "layout": {
     "key_error": {
@@ -55,7 +56,8 @@
       "loading": "loading",
       "account_on_chain": "Account Not On Chain",
       "message": " Your balance will go down for every transaction you send, including mining.",
-      "info_title": "Account Info"
+      "info_title": "Account Info",
+      "watch_only_tooltip": "Questo è un account di sola lettura. Le funzioni di trasferimento e transazione sono disabilitate."
     },
     "account_details": {
       "title": "Dettagli dell'account"

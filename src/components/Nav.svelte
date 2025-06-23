@@ -39,11 +39,19 @@
           <li class="uk-padding {$location_store.pathname.includes('wallet') ? 'uk-active' : ''}">
             <Link to={routes.wallet}>{$_('nav.wallet')}</Link>
           </li>
-          <li class="uk-padding {$location_store.pathname.includes('transfer') ? 'uk-active' : ''}">
-            <Link to={watchOnly ? routes.wallet : routes.transfer}>{$_('nav.transactions')}</Link>
+          <li class="uk-padding {$location_store.pathname.includes('transfer') ? 'uk-active' : ''} {watchOnly ? 'disabled-tab' : ''}">
+            {#if watchOnly}
+              <div class="uk-navbar-item disabled-link" title="{$_('nav.watch_only_disabled')}">{$_('nav.transactions')}</div>
+            {:else}
+              <Link to={routes.transfer}>{$_('nav.transactions')}</Link>
+            {/if}
           </li>
-          <li class="uk-padding {$location_store.pathname.includes('transactions') ? 'uk-active' : ''}">
-            <Link to={watchOnly ? routes.wallet : routes.txHub + '?type=vouch'}>{$_('nav.vouch')}</Link>
+          <li class="uk-padding {$location_store.pathname.includes('transactions') ? 'uk-active' : ''} {watchOnly ? 'disabled-tab' : ''}">
+            {#if watchOnly}
+              <div class="uk-navbar-item disabled-link" title="{$_('nav.watch_only_disabled')}">{$_('nav.vouch')}</div>
+            {:else}
+              <Link to={routes.txHub + '?type=vouch'}>{$_('nav.vouch')}</Link>
+            {/if}
           </li>
         </ul>
       </div>
@@ -57,3 +65,20 @@
     </div>
   </nav>
 </main>
+
+<style>
+  .disabled-tab {
+    opacity: 0.6;
+  }
+  
+  .disabled-link {
+    color: #999;
+    cursor: not-allowed;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+</style>

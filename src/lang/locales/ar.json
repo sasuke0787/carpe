@@ -4,7 +4,8 @@
     "miner": "Miner",
     "transactions": "Transfer",
     "vouch": "Vouch",
-    "events": "Events"
+    "events": "Events",
+    "watch_only_disabled": "هذا الإجراء معطل للحسابات المخصصة للقراءة فقط"
   },
   "layout": {
     "key_error": {
@@ -55,7 +56,8 @@
       "loading": "loading",
       "account_on_chain": "Account Not On Chain",
       "message": "Your balance will go down for every transaction you send, including mining.",
-      "info_title": "Account Info"
+      "info_title": "Account Info",
+      "watch_only_tooltip": "هذا حساب للقراءة فقط. خصائص التحويل والمعاملات معطلة."
     },
     "account_details": {
       "title": "Account Details"

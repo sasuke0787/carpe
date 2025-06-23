@@ -4,7 +4,8 @@
     "miner": "Miner",
     "transactions": "Transfer",
     "vouch": "Transactions",
-    "events": "Events"
+    "events": "Events",
+    "watch_only_disabled": "This action is disabled for watch-only accounts"
   },
   "layout": {
     "key_error": {
@@ -59,7 +60,8 @@
       "rejoin": "Re-join",
       "rejoin_tooltip": "Migrate this account to v8 network",
       "rejoin_success": "Account successfully rejoined to v8 network",
-      "rejoin_processing": "Migration in progress..."
+      "rejoin_processing": "Migration in progress...",
+      "watch_only_tooltip": "This is a watch-only account. Transfer and transaction features are disabled."
     },
     "migration": {
       "config_success": "Successfully migrated config from previous version"

@@ -4,7 +4,8 @@
     "miner": "Mineur",
     "transactions": "Transactions",
     "vouch": "Garantir",
-    "events": "Événements"
+    "events": "Événements",
+    "watch_only_disabled": "Cette action est désactivée pour les comptes en lecture seule"
   },
   "layout": {
     "key_error": {
@@ -55,7 +56,8 @@
       "loading": "chargement",
       "account_on_chain": "Le compte n'est pas sur la chaîne",
       "message": " Votre solde diminuera pour toutes transactions effectuées, y compris lorsque vous minez.",
-      "info_title": "Informations sur le compte"
+      "info_title": "Informations sur le compte",
+      "watch_only_tooltip": "Ce compte est en lecture seule. Les fonctionnalités de transfert et de transaction sont désactivées."
     },
     "account_details": {
       "title": "Détails du compte"

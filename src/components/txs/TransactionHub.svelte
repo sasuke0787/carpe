@@ -31,6 +31,11 @@
     unsubs = signingAccount.subscribe((obj) => {
       account = obj
       watchOnly = obj?.watch_only
+      
+      // Redirect watch-only accounts to wallet
+      if (watchOnly) {
+        navigate(routes.wallet, { replace: true })
+      }
     })
     
     // Get selected type from URL query params if available

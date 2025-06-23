@@ -4,7 +4,8 @@
     "miner": "Minerador",
     "transactions": "Transações",
     "vouch": "Garantir",
-    "events": "Eventos"
+    "events": "Eventos",
+    "watch_only_disabled": "Esta ação está desativada para contas somente leitura"
   },
   "layout": {
     "key_error": {
@@ -55,7 +56,8 @@
       "loading": "carregando",
       "account_on_chain": "Conta não criada na rede",
       "message": "Seu saldo diminuirá para cada transação que você enviar, incluindo as de mineração.",
-      "info_title": "Informações sobre a conta"
+      "info_title": "Informações sobre a conta",
+      "watch_only_tooltip": "Esta é uma conta somente leitura. Funções de transferência e transação estão desativadas."
     },
     "account_details": {
       "title": "Detalhes da Conta"
